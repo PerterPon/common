@@ -1,4 +1,8 @@
 
+if (typeof Blob === 'undefined') {
+  global.Blob = require('buffer').Blob;
+}
+
 import * as path from 'path';
 import * as Koa from 'koa';
 import * as Router from 'koa-router';

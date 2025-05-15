@@ -7,7 +7,7 @@
     "test": "npm run build && node build/index",
     "pub": "node add-version && git add version && git commit version -m 'add version' && git push origin master",
     "deploy": "yarn pub && node build/deploy-all",
-    "push": "npm run build && git add assets/html assets/*.mp3 src/* build/* etc/* html/* test/* && git commit -a -m '1' && git push origin main"
+    "push": "npm run build && git commit -a -m '1' && git push origin main"
   },
   "author": "",
   "license": "ISC",

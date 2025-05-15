@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+if (typeof Blob === 'undefined') {
+    global.Blob = require('buffer').Blob;
+}
 const path = require("path");
 const Koa = require("koa");
 const Router = require("koa-router");
