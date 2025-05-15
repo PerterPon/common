@@ -3,7 +3,7 @@ tempFolder: '../../../temp'
 assetsFolder: '../../../assets'
 
 htmlServer:
-  htmlPort: 6001
+  htmlPort: 6002
 
 mysql:
   user: common
