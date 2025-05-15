@@ -1,0 +1,16 @@
+logFolder: '../../../logs'
+tempFolder: '../../../temp'
+assetsFolder: '../../../assets'
+
+htmlServer:
+  htmlPort: 6001
+
+mysql:
+  user: common
+  password: Hello1234_
+  port: 13306
+  host: home.perterpon.com
+  database: common
+  waitForConnections: true
+  connectionLimit: 100
+  queueLimit: 0
